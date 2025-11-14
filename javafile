@@ -5,3 +5,29 @@ public class HelloWorld {
         System.out.println("Hello, World!");
     }
 }
+
+import java.util.Scanner; // Import the Scanner class to read user input
+
+public class AddNumbers {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the console
+        Scanner inputReader = new Scanner(System.in);
+
+        // Prompt the user to enter the first number
+        System.out.print("Enter the first number: ");
+        int number1 = inputReader.nextInt(); // Read the first integer
+
+        // Prompt the user to enter the second number
+        System.out.print("Enter the second number: ");
+        int number2 = inputReader.nextInt(); // Read the second integer
+
+        // Calculate the sum
+        int sum = number1 + number2;
+
+        // Print the result
+        System.out.println("The sum of " + number1 + " and " + number2 + " is: " + sum);
+
+        // Close the Scanner to release system resources
+        inputReader.close();
+    }
+}
