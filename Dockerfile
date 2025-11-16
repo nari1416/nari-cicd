@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:9.0.112-jdk25-temurin-jammy
 
 MAINTAINER Nari <narivk18@gmail.com>
 
