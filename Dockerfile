@@ -4,4 +4,4 @@ MAINTAINER Nari <narivk18@gmail.com>
 
 EXPOSE 8080
 
-COPY target/nginx.war /usr/local/tomcat/nginx/nginx.war
+COPY target/nginx.war /usr/local/tomcat/webapps/nginx.war
